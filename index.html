@@ -7,7 +7,6 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; color: #333; }
     header, footer { background: #d62828; color: white; padding: 20px; text-align: center; }
-    header img { max-height: 80px; display: block; margin: 0 auto 10px; }
     .container { max-width: 800px; margin: auto; padding: 20px; }
     h1, h2, h3 { color: #d62828; }
     .hero { background: #fff; padding: 40px 20px; text-align: center; border-radius: 8px; }
@@ -18,12 +17,17 @@
     form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
     form button { background: #d62828; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
     footer a { color: white; text-decoration: underline; }
+    .logo-header { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+    .logo-header img { height: 50px; }
+    .logo-header h1 { color: white; margin: 0; }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo MY Logística" />
-    <h1>Mynssen Logística</h1>
+    <div class="logo-header">
+      <img src="logo.png" alt="Logo Mynssen Logística">
+      <h1>Mynssen Logística</h1>
+    </div>
     <p>📞 (21) 97113-4329 | 📧 mynssenlogistica@outlook.com</p>
   </header>
 
